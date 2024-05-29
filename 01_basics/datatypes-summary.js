@@ -28,3 +28,27 @@ let myObj = {
 const myFunc = function () {
   console.log("hey buddy");
 };
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(primitive) mai copy milti hai ,heap(non primitive) mai original rference milta
+
+let name1="Himz"
+let name2=name1
+name2="karan"
+
+console.log(name1);
+console.log(name2);
+
+let user1={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let user2=user1
+
+user2.email="abc@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
