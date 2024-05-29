@@ -19,9 +19,11 @@ console.log(typeof valueInNumber3);
 console.log(valueInNumber3);
 console.log(" ");
 
-
-
-co
+//conversion to number
 // "33" => 33
 // "33abc" =>NaN
 // true=>1; flase=>0
+
+//conversion to boolean
+// 1=>true;0=>false
+// ""=> false; "Hi"=>true
