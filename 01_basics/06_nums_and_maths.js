@@ -22,4 +22,9 @@
 // console.log(Math.min(3, 7, 2, 5));
 // console.log(Math.max(3, 7, 2, 5));
 
-console.log(Math.random()); //random value between 0 and 1
+//console.log(Math.random()); //random value between 0 and 1
+// formula for generation random number
+const min = 1;
+max = 6;
+//Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
