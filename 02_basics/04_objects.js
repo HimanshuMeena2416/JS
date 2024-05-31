@@ -40,10 +40,28 @@ const users = [
 
 // console.log(users[2].id);
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser)); //aise apn sari keys pata kr lenge.ek array aayga keys ka
-console.log(Object.values(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser)); //aise apn sari keys pata kr lenge.ek array aayga keys ka
+// console.log(Object.values(tinderUser));
 
-console.log(Object.entries(tinderUser)); //har ek key value pair ka subarray banega
+// console.log(Object.entries(tinderUser)); //har ek key value pair ka subarray banega
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn")); //to check if that given key is present or not in object
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")); //to check if that given key is present or not in object
+
+const course = {
+  coursename: "javascript",
+  price: "999",
+  courseInstructor: "Hitesh",
+};
+
+//course.courseInstructor  //baar baar isko na likhkr hum ek or way use kr skte
+
+// const { courseInstructor: instructor } = course; //object ko destructure kia hai yaha
+// console.log(instructor);
+
+// {
+//   "name":"raj",
+//   "class":"9th"
+// }   //json hai ye. isme key and value dono "" me likhte aur iska naam nhi hota
+
+// [{}, {}, {}];
