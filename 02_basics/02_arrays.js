@@ -7,7 +7,10 @@ const dc_heroes = ["superman", "flash", "batman"];
 // const allHeroes = marvel_heroes.concat(dc_heroes); //concat return new array. 2 array se single array bn jayga
 // console.log(allHeroes);
 
+
 // const all_new_heroes = [...marvel_heroes, ...dc_heroes]; //it is used mostly
+
+
 // console.log(all_new_heroes);
 
 // const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
