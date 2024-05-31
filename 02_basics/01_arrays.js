@@ -8,7 +8,7 @@ const myArr = [15, 1, 11, 3, 4, 5];
 // myArr.push(99);
 // myArr.pop(); //last element uda dega
 
-// myArr.unshift(76); // ek element start se aaya jisse last vale ko udna pada
+// myArr.unshift(76); // ek element start(left) se aaya jisse last vale ko udna pada
 // myArr.shift(); //first element uda dega
 
 // console.log(myArr.includes(77));
