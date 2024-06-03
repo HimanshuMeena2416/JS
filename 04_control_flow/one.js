@@ -26,6 +26,20 @@
 //   console.log(`User power: ${power}`);
 // }
 
-const balance = 1000;
+// const balance = 1000;
 
-if (balance > 500) console.log("test");
+// if (balance > 500) console.log("test");
+
+const userLoggedIn = true;
+const debitCard = true;
+const loggdInFromGoogle = false;
+const loggdInFromEmail = true;
+
+if (userLoggedIn && debitCard) {
+  //and
+  console.log("Allow to buy course");
+}
+
+if (loggdInFromGoogle || loggdInFromEmail) {
+  console.log("User loged in");
+}
