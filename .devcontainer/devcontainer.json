@@ -22,7 +22,8 @@
         "vscode-icons-team.vscode-icons",
         "wayou.vscode-todo-highlight",
         "formulahendry.code-runner",
-        "ritwickdey.LiveServer"
+        "ritwickdey.LiveServer",
+        "mathematic.vscode-pdf"
       ],
       "settings": {
         "editor.fontSize": 32,
