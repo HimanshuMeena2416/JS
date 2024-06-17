@@ -172,3 +172,31 @@ function newGame() {
   });
 }
 ```
+
+## Project 6 solution
+
+```javascript
+function getRandomColor() {
+  var letters = "0123456789ABCDEF";
+  var color = "#";
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
+let x;
+
+document.querySelector("#start").addEventListener("click", () => {
+  if (x == null) {
+    x = setInterval(() => {
+      document.querySelector("body").style.backgroundColor = getRandomColor();
+    }, 1000);
+  }
+});
+
+document.querySelector("#stop").addEventListener("click", () => {
+  clearInterval(x);
+  x = null;
+});
+```
