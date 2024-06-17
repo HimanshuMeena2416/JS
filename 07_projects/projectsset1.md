@@ -200,3 +200,35 @@ document.querySelector("#stop").addEventListener("click", () => {
   x = null;
 });
 ```
+
+## Project 5 solution
+
+```javascript
+const insert = document.getElementById("insert");
+
+window.addEventListener("keydown", (e) => {
+  insert.innerHTML = `
+  <div class='color'>
+  
+  <table class="table">
+  <thead>
+    <tr>
+      <th >Key</th>
+      <th >Keycode</th>
+      <th >Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>${e.key === " " ? "Space" : e.key}</th>
+      <td>${e.keyCode}</td>
+      <td>${e.code}</td>
+      
+    </tr>
+  </tbody>
+</table>
+  
+  </div>
+  `;
+});
+```
