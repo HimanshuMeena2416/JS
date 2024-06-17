@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Himanshu Meena1</h1>
+    <button id="stop">Stop</button>
+    <button id="start">start</button>
+  </body>
+  <script>
+    var x;
+    document.querySelector("#start").addEventListener("click", () => {
+      x = setInterval(() => {
+        console.log("hi");
+      }, 1000);
+    });
+
+    document.querySelector("#stop").addEventListener("click", () => {
+      clearInterval(x);
+    });
+  </script>
+</html>
