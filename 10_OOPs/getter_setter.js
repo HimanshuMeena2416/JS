@@ -1,3 +1,5 @@
+//this class based syntax is used mostly ..95%
+
 class User {
   constructor(email, password) {
     this.email = email;
